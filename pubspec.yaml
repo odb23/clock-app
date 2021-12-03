@@ -1,0 +1,31 @@
+name: clock_app
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.0
+  intl: ^0.16.1
+  provider: ^4.3.1
+  dotted_border: ^1.0.5
+  flutter_local_notifications: ^1.4.4+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+fonts: 
+  - family: avenir
+    font: 
+     - asset: assets\fonts\AvenirLTStd-Black.otf
+     - asset: assets\fonts\AvenirLTStd-Book.otf
+     - asset: assets\fonts\AvenirLTStd-Roman.otf
